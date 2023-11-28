@@ -30,6 +30,9 @@ img{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
     
     background-color: #FF6900;
 }
@@ -58,8 +61,8 @@ img{
     max-width: 1200px;
     padding: 0;
     /* debug */
-    border: 2px dashed red;
-    background-color: lightgray;
+    /* border: 2px dashed red;
+    background-color: lightgray; */
 }
 
 .card{
@@ -68,8 +71,8 @@ img{
     width: 300px;
     background-size: cover;
     /* debug */
-    border: 1px dashed black;
-    background-color: rgb(218, 200, 200);
+    /* border: 1px dashed black;
+    background-color: rgb(218, 200, 200); */
 }
 /* LABEL CARD */
 
@@ -82,7 +85,7 @@ img{
     background-color: white;
   
     /* debug */
-    border: 1px dashed green;  
+    /* border: 1px dashed green;   */
 }
 
 .label_details{
@@ -141,7 +144,8 @@ img{
     
 }
 
-.info{
+.info, .info_social{
+    padding-top: 50px;
     color: white;
 }
 
