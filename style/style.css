@@ -7,6 +7,15 @@
 
 /* HEADER */
 
+.navigation > div >a{
+    color: white;
+    text-decoration: none;
+}
+
+.navigation > div >i{
+    color: white;
+}
+
 .logo{
     max-width: 170px;
 }
@@ -18,5 +27,29 @@
     justify-content: space-around;
     align-items: center;
     
-    background-color: orange;
+    background-color: #FF6900;
+}
+
+/* MAIN */
+
+.conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 30px auto;
+    max-width: 1200px;
+    padding: 0;
+    /* debug */
+    border: 2px dashed red;
+    background-color: lightgray;
+}
+
+.card{
+    height: 500px;
+    width: 300px;
+    
+    /* debug */
+    border: 1px dashed black;
+    background-color: white;
 }
