@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+img{
+    width: 100%;
+}
+
 /* HEADER */
 
 .navigation > div >a{
@@ -54,31 +58,6 @@
     border: 1px dashed black;
     background-color: rgb(218, 200, 200);
 }
-
-.product_1{
-    background-image: url(../img/1.webp);
-}
-
-.product_2{
-    background-image: url(../img/2.webp);
-}
-
-.product_3{
-    background-image: url(../img/3.webp);
-}
-
-.product_4{
-    background-image: url(../img/4.webp);
-}
-
-.product_5{
-    background-image: url(../img/5.webp);
-}
-
-.product_6{
-    background-image: url(../img/6.webp);
-}
-
 /* LABEL CARD */
 
 .label_heart{
@@ -95,7 +74,7 @@
 
 .label_details{
     position: absolute;
-    bottom: 20px;
+    bottom: 90px;
     color: white;
 }
 
@@ -107,4 +86,20 @@
 .discount{
     padding: 5px;
     background-color: red;
+}
+
+/* CARD DESCRIPTION */
+
+.collection{
+    font-weight: bold;
+}
+
+.frist_price{
+    font-size: small;
+}
+
+.price{
+    display: inline-block;
+    color: red;
+    text-decoration: line-through;
 }
