@@ -49,11 +49,34 @@
     position: relative;
     height: 500px;
     width: 300px;
-    background-image: url(../img/1.webp);
     background-size: cover;
     /* debug */
     border: 1px dashed black;
     background-color: rgb(218, 200, 200);
+}
+
+.product_1{
+    background-image: url(../img/1.webp);
+}
+
+.product_2{
+    background-image: url(../img/2.webp);
+}
+
+.product_3{
+    background-image: url(../img/3.webp);
+}
+
+.product_4{
+    background-image: url(../img/4.webp);
+}
+
+.product_5{
+    background-image: url(../img/5.webp);
+}
+
+.product_6{
+    background-image: url(../img/6.webp);
 }
 
 /* LABEL CARD */
