@@ -144,6 +144,10 @@ img{
     
 }
 
+.info a{
+    margin-right: 10px;
+}
+
 .info, .info_social{
     padding-top: 50px;
     color: white;
