@@ -10,31 +10,44 @@ img{
 }
 
 /* HEADER */
+header{
+    background-color: #FF6900;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
 
-.navigation > div >a{
+.navigation{
+    width: 100%;
+    max-width: 1200px;
+    min-height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    color: white;
+}
+
+.navigation, a{
     color: white;
     text-decoration: none;
 }
 
-.navigation > div >i{
-    color: white;
+.navigation a{
+    margin-right: 10px;
 }
 
 .logo{
     max-width: 170px;
 }
 
-.navigation{
-    width: 100%;
-    min-height: 100px;
+.icons{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    z-index: 1;
-    
-    background-color: #FF6900;
+}
+
+.icons .icon{
+    margin-left: 10px;
 }
 
 /* MAIN */
@@ -52,7 +65,7 @@ img{
     transform: translate(-50%, -57%);
 }
 
-.conteiner{
+.container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -60,9 +73,6 @@ img{
     margin: 30px auto;
     max-width: 1200px;
     padding: 0;
-    /* debug */
-    /* border: 2px dashed red;
-    background-color: lightgray; */
 }
 
 .card{
@@ -70,10 +80,8 @@ img{
     height: 500px;
     width: 300px;
     background-size: cover;
-    /* debug */
-    /* border: 1px dashed black;
-    background-color: rgb(218, 200, 200); */
 }
+
 /* LABEL CARD */
 
 .label_heart{
@@ -83,9 +91,6 @@ img{
     font-size: large;
     padding: 15px;
     background-color: white;
-  
-    /* debug */
-    /* border: 1px dashed green;   */
 }
 
 .label_details{
@@ -136,11 +141,16 @@ img{
 
 /* FOOTER */
 
+footer{
+    background-color: rgb(27, 27, 27);
+}
+
 .contact_info{
     display: flex;
     justify-content: space-around;
-    background-color: rgb(27, 27, 27);
     min-height: 170px;
+    max-width: 1200px;
+    margin: auto;
     
 }
 
